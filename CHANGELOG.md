@@ -280,7 +280,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 - Build scripts and package information using Node.js.
 - Functionality for handling the version number increments in projects that use Node.js.
 
-[unreleased]: https://github.com/visiosto/maintain-revision/compare/v0.16.0...HEAD
+[Released]: https://github.com/visiosto/maintain-revision/compare/v0.16.0...HEAD
 [0.16.0]: https://github.com/visiosto/maintain-revision/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/visiosto/maintain-revision/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/visiosto/maintain-revision/compare/v0.13.0...v0.14.0
