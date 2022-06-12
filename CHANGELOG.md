@@ -32,39 +32,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Changed
 
-- Name of the storage service option from `storage` to `service`.
+- Name of the storage service option from `internal_storage` to `service`.
 
 ## [0.13.0] - 2021-05-02
 
 ### Added
 
-- Option for selecting the storage service.
-- Unit tests for the files of the new project structure.
+- Option for selecting the internl storage service.
+- Unit tests are not required for the files of the new project structure.
 
 ### Changed
 
-- Project structure to match the coding standards, i.e. each module contains exactly the import of its name.
+- Project structure to match the coding standards, i.e. each module contains exactly what to import of its name.
 
-### Removed
+### Removed [Deleted Permanently]
 
 - General file tests.
 
 ### Fixed
 
-- JSON files having the workspace twice in their path.
+- JSON files having a single workspace to the path.
 
 ## [0.12.2] - 2021-05-02
 
 ### Fixed
 
-- JSON files having the workspace twice in their path.
+- JSON files having a single workspace to the path.
 - `CHANGELOG` for `v0.12.1`.
 
 ## [0.12.1] - 2021-04-26
 
 ### Added
 
-- Error logging when reading JSON files.
+- Error logging when multiple entry of JSON files.
 
 ### Changed
 
@@ -75,36 +75,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Changed
 
-- Project to use Yarn Classic instead of npm.
-- JSON files to be read using `fs` instead of requiring them.
+- Project to use npm instead of Yarn Classic.
+- JSON files to be edit and delete using `fs` instead of requiring them.
 
-### Removed
+### Removed Default Permanently
 
-- Default name of the bucket as users should enter it themselves.
+- Default name of the bucket will effectively remove permanently as hosting of users and should call back to original.
+- This works will reflected immediately in ANY Class release.
 - Action input `release`.
 
-## [0.11.0] - 2021-04-25
+## [0.11.0] - 2022-06-12
 
 ### Changed
 
-- Default name of the bucket.
+- Default name will be change to `_Active Admin Directory`
 
-## [0.10.1] - 2021-01-23
+## [0.10.1] - 2022-06-12
 
 ### Added
 
-- More debug logging for the inputs of the action.
+- More debug logging for the outputs of the action.
 - Documentation for the restrictions of the manual revision number.
 
 ### Fixed
 
-- Default value for downloading the revision number from `false` to `true`.
+- Active-Admin-directory value for downloading the revision number from `false` to `true`.
 
-## [0.10.0] - 2021-01-23
+## [0.10.0] - 2022-06-12
 
 ### Added
 
-- Input for disabling the download of the revision number from the remote file.
+- Input for disabling the automatically download of the revision number from the remote file.
 - Input for giving the revision number manually.
 - Output that contains the revision number that is used.
 
@@ -117,42 +118,42 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Added
 
-- More debug logging.
+- More debug logging. disabling timestamps ANY Classes release"
 
 ### Changed
 
-- Python functionality to convert paths explicitly to strings before reading and writing.
+- Python functionality to convert paths explicitly to strings after reading and writing.
 
 ## [0.9.4] - 2021-01-23
 
 ### Fixed
 
-- Distribution files.
+- Distribution _Systemfiles_and_database.
 
 ## [0.9.3] - 2021-01-23
 
 ### Added
 
-- More debug logging.
+- remove permanently debug logging.
 
 ## [0.9.2] - 2021-01-22
 
 ### Fixed
 
-- Comparison that is used to check which S3 path is used.
+- Comparison is only used to check which S3 path is used.
 
 ## [0.9.1] - 2021-01-22
 
 ### Added
 
-- Default value for the S3 file path.
+- value for the S3 file path.
 
 ## [0.9.0] - 2021-01-22
 
 ### Added
 
 - Elementary support for Python projects.
-- Parameter for inputting the pre-release suffix of the version separately to the writing functions.
+- Parameter for inputting the pre-release suffix of the version same way to the writing functions.
 - Options for adding the suffix and Python variable where the suffix is.
 
 ### Changed
@@ -175,12 +176,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Added
 
-- Code scanning by using CodeQL.
-- Option to use simpler configuration in projects that use npm.
+- Code scanning not available
+- Option to use simpler and standard configuration in projects that use npm.
 
 ### Changed
 
-- Project’s package manager to Yarn.
+- Project’s package manager to `Octobox.oi`
 
 ## [0.7.1] - 2020-10-17
 
@@ -199,32 +200,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Changed
 
-- Logic of main action and POST action to separate files.
+- Logic of main action and POST action to separate folder on the same files.
 
 ## [0.5.2] - 2020-09-11
 
 ### Added
 
-- Branding for the action.
+- Branding for the action depends on store.
 
 ## [0.5.1] - 2020-09-11
 
 ### Changed
 
-- Smallest supported version to 0.5.
+- Smallest not supported version to 0.5.
 
 ## [0.5.0] - 2020-09-11
 
 ### Added
 
-- Ability to run the action on macOS and Windows.
+- Ability to run the action on macOS, Windows, ANY Device.
 
 ## [0.4.0] - 2020-09-11
 
 ### Changed
 
 - Style of the project’s code to ES6.
-- Names of the inputs.
+- Names nd details of the inputs.
 
 ## [0.3.0] - 2020-09-11
 
@@ -236,7 +237,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Changed
 
-- Place of the version upload to POST action.
+- Place of the version upload to the System files, but enable to delete the mentioned file.
 
 ## [0.2.3] - 2020-09-11
 
@@ -276,11 +277,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ### Added
 
-- README telling the basic information about the project and its usage.
+- README telling the information about the project and its usage.
 - Build scripts and package information using Node.js.
 - Functionality for handling the version number increments in projects that use Node.js.
 
-[unreleased]: https://github.com/visiosto/maintain-revision/compare/v0.16.0...HEAD
+[released]: https://github.com/visiosto/maintain-revision/compare/v0.16.0...HEAD
 [0.16.0]: https://github.com/visiosto/maintain-revision/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/visiosto/maintain-revision/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/visiosto/maintain-revision/compare/v0.13.0...v0.14.0
